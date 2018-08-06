@@ -1,6 +1,7 @@
 # task-planner
 Plans and assigns task
 
+
 APP Functionality 
 •	Login
 •	LogOut
@@ -9,6 +10,7 @@ APP Functionality
 •	Update Task 
 •	Delete Task 
 
+Execute by calling mvn spring-boot:run
 
 Two users are configured for Sign in :
 1.	UserName: joy  ; Password: 123 ; Role : USER
