@@ -34,7 +34,8 @@ Frontend
 
 
 Using Docker commands also this application can be built . 
-Go inside the task-planner app and execute the below commands . Make sure you have docker installed:
+Go inside the task-planner app and execute the below commands . Make sure you have docker installed and have a personal dockerid .:
+replace joy1987 with your docker id in the below commands.
 
 docker build -t joy1987/taskplanner-0.1.0 -f Dockerfile .
 docker run --name taskplanner -v /usr/local/repo:/root/.m2  -p 9000:9000  joy1987/taskplanner-0.1.0
