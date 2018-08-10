@@ -3,7 +3,7 @@
 :toc:
 :icons:
 :linkcss:
-:imagesdir: images
+:imagesdir: image
 
 == Overview 
 This application is a Spring boot application of Creating a Task , assigning a task , updating a task and Deleting a task . 
@@ -48,3 +48,12 @@ Tech Stack Used
 
 . docker build -t joy1987/taskplanner-0.1.0 -f Dockerfile .
 . docker run --name taskplanner -v /usr/local/repo:/root/.m2  -p 9000:9000  joy1987/taskplanner-0.1.0
+
+
+== Screenshot
+
+image::1.png[]
+
+image::2.png[]
+
+image::3.png[]
