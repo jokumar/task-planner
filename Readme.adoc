@@ -9,12 +9,12 @@
 
 This application is a Spring boot application of Creating a Task , assigning a task , updating a task and Deleting a task . 
 Below are the functunality  
-•	Login
-•	LogOut
-•	List Task 
-•	Create Task
-•	Update Task 
-•	Delete Task 
+.	Login
+.	LogOut
+.	List Task 
+.	Create Task
+.	Update Task 
+.	Delete Task 
 == Run the project :
 . Navigate inside task-planner and run the below command
    mvn spring-boot:run
@@ -30,15 +30,15 @@ Below are the functunality
 
 Tech Stack Used :
 Backend 
-•	Spring Boot 
-•	Spring MVC
-•	Spring Data JPA 
-•	H2 DB 
-•	Spring Security 
+.	Spring Boot 
+.	Spring MVC
+.	Spring Data JPA 
+.	H2 DB 
+.	Spring Security 
 Frontend
-•	Html
-•	CSS
-•	JavaScript
+.	Html
+.	CSS
+.	JavaScript
 
 
 == Using Docker commands also this application can be built . 
