@@ -29,14 +29,13 @@ Below are the functunality
 . DB credentials(admin / admin)
 
 
-Tech Stack Used :
-Backend 
+Tech Stack Used
+
 . Spring Boot 
 . Spring MVC
 . Spring Data JPA 
 . H2 DB 
 . Spring Security 
-Frontend
 . Html
 . CSS
 . JavaScript
