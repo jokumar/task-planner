@@ -1,0 +1,50 @@
+dn: dc=springframework,dc=org
+objectclass: top
+objectclass: domain
+objectclass: extensibleObject
+dc: springframework
+
+dn: ou=roles,dc=springframework,dc=org
+objectclass: top
+objectclass: organizationalUnit
+ou: roles
+
+dn: ou=people,dc=springframework,dc=org
+objectclass: top
+objectclass: organizationalUnit
+ou: people
+
+dn: uid=admin,ou=people,dc=springframework,dc=org
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: Admin1
+sn: Admin1
+uid: admin
+userPassword: admin
+
+
+dn: uid=joy,ou=people,dc=springframework,dc=org
+objectclass: top
+objectclass: person
+objectclass: organizationalPerson
+objectclass: inetOrgPerson
+cn: joydip
+sn: Kumar
+uid: joy
+userPassword: 123
+
+#ROLES
+dn: cn=ROLE_USER,ou=roles,dc=springframework,dc=org
+objectclass: top
+objectclass: groupOfNames
+cn: ROLE_USER
+member: uid=joy,ou=people,dc=springframework,dc=org
+
+dn: cn=ROLE_ADMIN,ou=roles,dc=springframework,dc=org
+objectclass: top
+objectclass: groupOfNames
+cn: ROLE_ADMIN
+member: uid=admin,ou=people,dc=springframework,dc=org
+
